@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.logo {
+  width: 50px;
+  height: 100%;
+}
+
+.border{
+
+  border: 1px solid rgb(161, 161, 161) !important;
+  border-block-start-color: #222;
+ border-style : inset;
+  border-radius: 3px;
+  width: 100%;
+  height: auto;
+  margin-top: 75px;
+ 
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   position: relative;
+
+}
+
+
+Body{
+  background-color: rgb(241, 241, 241);
+}
+.B{
+ display: inline-block; 
+  width: 100%;
+}
+.CV{
+  border: 1px solid rgb(161, 161, 161) !important;
+  border-block-start-color: #222;
+  border-style : inset;
+  height: auto;
+  
+
+  margin: 75px 10px 0px 10px;
+    background-color: white;
+   border-radius: 3px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   grid-column-start: 1;
+   grid-column-end: 1;
+}
+.Design{
+ border: 1px solid rgb(161, 161, 161) !important;
+  border-block-start-color: #222;
+  border-style : inset;
+  width: 250px;
+  height: auto;
+  margin-top: 75px;
+  
+   background-color: white;
+   border-radius: 3px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wrapper {
+  padding: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% auto;
+}
+.comp-left {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+.comp-middle {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  
+
+}
+.comp-middle-wrap {
+  display: grid;
+  grid-template-columns: auto 25%;
+}
+.comp-right {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  padding-left: 20px;
+}
+.CvContenu{
+  margin-left: 50px;
+}

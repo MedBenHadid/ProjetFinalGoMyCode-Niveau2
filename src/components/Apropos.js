@@ -27,8 +27,8 @@ class Apropos extends Component {
     <div className="From">
     <br/> 
        <form onSubmit={this.Envoyer}>
-        <TextField style={FormStyle} type='file' label='Upload' accept='.jpg' />
-        <TextField style={FormStyle} id="Prenom" label="Prenom" margin="normal"/><br/>
+        <input style={FormStyle} type='file' label='Upload' accept='.jpg' onChange={this.customOnChangeHandler}  />
+        <TextField style={FormStyle} id="Prenom" label="Prenom" margin="normal" onChange={this.test}/><br/>
         <TextField style={FormStyle} id="Nom" label="Nom" margin="normal"/> 
         <TextField style={FormStyle} id="Poste" label="Poste" margin="normal"/> 
         <TextField style={FormStyle} id="Adress" label="Adress" margin="normal"/> 
@@ -46,8 +46,13 @@ class Apropos extends Component {
        items: [...previousState.items, this.createElement()],
      }))
    }
-
+   test = () =>{
+     if ((document.getElementById('Prenom').value=='')){
+        alert('----')
+     }
+   }
    createElement = () => {
+
      let item;
      item = {
        Nom: document.getElementById('Nom').value,

@@ -57,8 +57,6 @@ Body{
   border-block-start-color: #222;
   border-style : inset;
   height: auto;
-  
-
   margin: 75px 10px 0px 10px;
     background-color: white;
    border-radius: 3px;
@@ -73,7 +71,6 @@ Body{
   width: 250px;
   height: auto;
   margin-top: 75px;
-  
    background-color: white;
    border-radius: 3px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

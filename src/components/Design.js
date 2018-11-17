@@ -22,8 +22,8 @@ class Design extends Component {
 <br/><br/><br/>
         <select style={FormStyle} width="1000px;" onChange={this.handleSpacing}> Spacing
           <option value="150%">Large</option>
-          <option value="100%">normal</option>
-          <option value="80%">small</option>
+          <option value="110%">normal</option>
+          <option value="90%">small</option>
         </select>
         <br/> <br/> <br/>
   

@@ -10,7 +10,7 @@ export default class FormationComponent extends React.Component {
     // if (this.props.Formation == null) {zina.display=='inlineBlock'}
         return (
     <div>
-        
+        <h3 style={{'color' : this.props.color}}><u>Formation</u></h3>
            <div className="val1">
                 {Object.keys(this.props.Formation).map(
 			    key=><BoxFormation

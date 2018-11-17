@@ -12,7 +12,7 @@ import ContactUs from './views/ContactUs';
 class App extends Component {
   render() {
     return (
-      hklj
+    
 
     );
   }

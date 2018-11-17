@@ -67,7 +67,7 @@ render(
             </li>
             &nbsp;&nbsp;&nbsp;
              <li className="nav-item">
-              <NavLink className="nav-link" to="/Prix">Prix</NavLink>
+              <NavLink className="nav-link" to="/Prix">Prix & distinctions</NavLink>
             </li>
              &nbsp;&nbsp;&nbsp;
              <li className="nav-item">

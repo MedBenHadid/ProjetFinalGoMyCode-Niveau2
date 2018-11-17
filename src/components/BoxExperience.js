@@ -7,7 +7,7 @@ class BoxExperience extends React.Component {
 <div className="CvContenu">
 
 <br/>
-<h3 style={{'color' : this.props.color}}>Experience<Button bsStyle="primary" onClick={() => this.props.hezExperience(this.props.index)} >X</Button></h3>
+<i class="fas fa-brain"></i><h3 style={{'color' : this.props.color}}>Experience<Button bsStyle="primary" onClick={() => this.props.hezExperience(this.props.index)} >X</Button></h3>
 
 Nom d'entreprise: {this.props.NomEntreprise}<br/> 
 Position: {this.props.Position}<br/> 
